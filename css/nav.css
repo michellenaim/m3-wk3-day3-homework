@@ -1,0 +1,10 @@
+/* Nest Nav */
+nav ul {
+  display: flex;
+  list-style-type: none; }
+  nav ul li {
+    color: white;
+    padding-right: 5px; }
+    nav ul li a {
+      color: white;
+      text-decoration: none; }

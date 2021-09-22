@@ -1,0 +1,63 @@
+@import "colors";
+@import "nav";
+
+/* Variables */
+$font-family1: Arial, Helvetica, Sans-Serif;
+$font-family2: 'Sacramento', cursive;
+
+@mixin main-font {
+    font-family: $font-family1;
+}
+
+
+/* Nest Main */
+body {
+    @include main-font
+    background-color: $yellow;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+main {
+    width: 1350px;
+    min-height:535px;
+    background-color: $white;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    #intro-text {
+      background-color: $gray;
+      width: 40%;
+      padding-top: 120px;
+      span {
+          font-family: $font-family2;
+          font-size: xx-large;
+      }
+      h3 {
+        font-size: xx-large;
+      }
+      .submit-button {
+          background-color: $yellow;
+          color: $white;
+          border: none;
+          padding: 12px 9px;
+          margin-top: 24px;
+      }
+    }
+    #intro-image {
+      width: 60%;
+      img {
+          width: 100%;
+          height: 100%;
+        }
+    }
+}
+footer {
+    margin-top: 30px;
+    font-size: small;
+    margin-left: 40px;
+}
+
+// Mixin or Extend for button

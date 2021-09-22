@@ -1,0 +1,52 @@
+/* Nest Nav */
+nav ul {
+  display: flex;
+  list-style-type: none; }
+  nav ul li {
+    color: white;
+    padding-right: 5px; }
+    nav ul li a {
+      color: white;
+      text-decoration: none; }
+
+/* Variables */
+/* Nest Main */
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: #daaa0e; }
+
+header {
+  margin-bottom: 30px; }
+
+main {
+  width: 1350px;
+  min-height: 535px;
+  background-color: white;
+  display: flex;
+  padding: 25px;
+  text-align: center; }
+  main #intro-text {
+    background-color: #d4d5d8;
+    width: 40%;
+    padding-top: 120px; }
+    main #intro-text span {
+      font-family: "Sacramento", cursive;
+      font-size: xx-large; }
+    main #intro-text h3 {
+      font-size: xx-large; }
+    main #intro-text .submit-button {
+      background-color: #daaa0e;
+      color: white;
+      border: none;
+      padding: 12px 9px;
+      margin-top: 24px; }
+  main #intro-image {
+    width: 60%; }
+    main #intro-image img {
+      width: 100%;
+      height: 100%; }
+
+footer {
+  margin-top: 30px;
+  font-size: small;
+  margin-left: 40px; }
